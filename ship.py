@@ -6,7 +6,7 @@ class Ship():
         self.screen = screen
 
         """Загрузка изображения корабля и получение прямоугольника"""
-        self.image = pygame.image.load('ehmatthes-pcc-f555082/chapter_12/images/ship.bmp')
+        self.image = pygame.image.load('images/spacejet.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
